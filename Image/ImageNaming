@@ -1,0 +1,5 @@
+# The first three letters indicates image type.
+# The numbers in the end indicates shooting angles of them.
+# Num: Images contains only numbers.
+# Let: Images contains only uppercase letters.
+# Cob: Images contains combinations of uppercase letters and numbers.
