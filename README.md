@@ -2,7 +2,7 @@
 This is a project intended to discover how accurate machine learning API can recognize photos of numbers and uppercase letters with different shooting angles.
 
 ## Code
-The images to be tested are in the "image" folder, and the description to each image are in "ImageNaming" in Image folder. 
+The images to be tested are in the "Image" folder, and the description to each image are in "ImageNaming" in Image folder. 
 ```
 # Import necessary packages
 import getpass
