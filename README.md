@@ -3,8 +3,16 @@ Google Cloud Vision API has empowered us with visual detection in miscellaneous 
 ![image](https://user-images.githubusercontent.com/42985861/116646600-7b843980-a946-11eb-988e-b754d7d686b8.png)
 
 ## How it works
-With the question in our mind, we employed a quantitative method to gather data on the Vision API. In order to have the object being detected, we printed out some random letters and numbers in the font of 48 on a piece of paper. Subsequently, we take pictures of the printed texts with the disparity in angles while holding the distance from camera to the center of text controlled. Each picture differs by 15 degrees. Photos with different angles empower us to recreate the scenarios in real life when the texts are not at a perfectly readable angle. Then we requested Google Cloud Vision API into Google Colab and scanned each photo with the API using the following code.
 ![image](https://user-images.githubusercontent.com/42985861/116646644-948cea80-a946-11eb-99d2-d4abd3372d5d.png)
+
+As shown in the diagram, the flow is as followed:
+1. Obtain image files and upload it into cloud storage from desktop;
+2. Scan the photo with naked eyes and Google Vision API;
+3. Analyse the data in Google sheet;
+4. Create web page for result reporting and Github page for recreation of the experimemt.
+
+With the question in our mind, we employed a quantitative method to gather data on the Vision API. In order to have the object being detected, we printed out some random letters and numbers in the font of 48 on a piece of paper. Subsequently, we take pictures of the printed texts with the disparity in angles while holding the distance from camera to the center of text controlled. Each picture differs by 15 degrees. Photos with different angles empower us to recreate the scenarios in real life when the texts are not at a perfectly readable angle. Then we requested Google Cloud Vision API into Google Colab and scanned each photo with the API using the following code.
+
 ![image](https://user-images.githubusercontent.com/42985861/116646999-8095b880-a947-11eb-9ef4-dd7cb5c26453.png)
 
 
