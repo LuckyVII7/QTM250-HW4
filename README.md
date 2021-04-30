@@ -52,7 +52,7 @@ print(responses['responses'][0]['textAnnotations'][0]['description'])
 
 Code source link: https://colab.research.google.com/drive/1OHGs7vDWc8B_HzxR9DukuTtxS158XGJv?usp=sharing
 
-Actual notebook for coding: https://colab.research.google.com/drive/1hHpnBUnL5IKf6ypSMTXDojJf1w0q2xN2?usp=sharing
+Actual notebook for coding: https://github.com/LuckyVII7/QTM250-HW4/blob/722847ad1c94023385a2792c06f9bbd2d1093d8f/HW4.ipynb
 
 We ran the code with different images uploaded and recorded results from each trial. After recording all results from the Colab notebook, we came up with a spreadsheet with the accuracies of each trial.
 
